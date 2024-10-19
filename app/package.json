@@ -1,0 +1,13 @@
+{
+  "name": "family-tree",
+  "description": "Family Tree Creator",
+  "author": {
+    "name": "Tobias Hoppe",
+    "email": "todo@example.com"
+  },
+  "version": "1.0.0",
+  "main": "main.js",
+  "private": true,
+  "dependencies": {
+  }
+}
