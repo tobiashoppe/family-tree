@@ -115,20 +115,20 @@
         "serve": {
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
-            "browserTarget": "family-tree:build"
+            "buildTarget": "family-tree:build"
           },
           "configurations": {
             "dev": {
-              "browserTarget": "family-tree:build:dev"
+              "buildTarget": "family-tree:build:dev"
             },
             "production": {
-              "browserTarget": "family-tree:build:production"
+              "buildTarget": "family-tree:build:production"
             },
             "web": {
-              "browserTarget": "family-tree:build:web"
+              "buildTarget": "family-tree:build:web"
             },
             "web-production": {
-              "browserTarget": "family-tree:build:web-production"
+              "buildTarget": "family-tree:build:web-production"
             }
           }
         },
@@ -143,7 +143,7 @@
           "options": {
             "polyfills": ["src/polyfills-test.ts"],
             "tsConfig": "src/tsconfig.spec.json",
-            "globalMocks": ["styleTransform", "matchMedia", "getComputedStyle"],
+            "globalMocks": ["styleTransform", "matchMedia", "getComputedStyle"]
           }
         },
         "lint": {
