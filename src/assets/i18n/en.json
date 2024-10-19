@@ -1,7 +1,9 @@
 {
   "PAGES": {
       "SIDEBAR": {
-          "TITLE": "Family Tree Creator"
+          "TITLE": "Family Tree Creator",
+          "LOAD": "Load Tree",
+          "SAVE": "Save Tree"
       }
   }
 }

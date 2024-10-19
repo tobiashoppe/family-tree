@@ -1,7 +1,9 @@
 {
     "PAGES": {
         "SIDEBAR": {
-            "TITLE": "Stammbaum Generator"
+            "TITLE": "Stammbaum Generator",
+            "LOAD": "Laden",
+            "SAVE": "Speichern"
         }
     }
   }
