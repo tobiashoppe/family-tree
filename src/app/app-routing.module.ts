@@ -2,13 +2,22 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { PageNotFoundComponent } from './shared/components';
 
-import { HomeRoutingModule } from './components/home/home-routing.module';
+import { PlotComponent } from './components/plot/plot.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'sidebar',
     pathMatch: 'full'
+  },
+  {
+    path: 'sidebar',
+    component: SidebarComponent
+  },
+  {
+    path: 'home',
+    component: PlotComponent
   },
   {
     path: '**',
@@ -19,7 +28,6 @@ const routes: Routes = [
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, {}),
-    HomeRoutingModule,
   ],
   exports: [RouterModule]
 })
